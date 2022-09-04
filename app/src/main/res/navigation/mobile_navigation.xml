@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.cookfood.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_find"
+        android:name="com.example.cookfood.ui.find.FindFragment"
+        android:label="@string/title_find"
+        tools:layout="@layout/fragment_find" />
+
+    <fragment
+        android:id="@+id/navigation_putout"
+        android:name="com.example.cookfood.ui.putout.PutoutFragment"
+        android:label="发布"
+        tools:layout="@layout/fragment_putout" />
+
+    <fragment
+        android:id="@+id/navigation_collect"
+        android:name="com.example.cookfood.ui.collect.CollectFragment"
+        android:label="@string/title_collect"
+        tools:layout="@layout/fragment_collect" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.example.cookfood.ui.my.MyFragment"
+        android:label="@string/title_my"
+        tools:layout="@layout/fragment_my" />
+</navigation>

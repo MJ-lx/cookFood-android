@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CookFood</string>
+    <string name="title_activity_main2">login</string>
+    <string name="title_activity_bottomnav">MainActivity</string>
+    <string name="title_home">首页</string>
+    <string name="title_find">发现</string>
+    <string name="title_putout">发布</string>
+    <string name="title_collect">收藏</string>
+    <string name="title_my">我的</string>
+
+    <string name="my_active">动态</string>
+    <string name="my_attend">关注</string>
+    <string name="my_collect">粉丝</string>
+    <string name="data_active">1340</string>
+    <string name="data_attend">230</string>
+    <string name="data_collect">330</string>
+    <string name="title_activity_enroll">enroll</string>
+
+    <string name="test_text">你好，这是一段测试文字，只需要它逻辑啰嗦越丑越长就好了，不需要有什么涵养，就写到这吧应该可以了</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_setting">MySetting</string>
+</resources>

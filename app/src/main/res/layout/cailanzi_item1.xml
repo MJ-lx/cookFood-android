@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/food_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+                <TextView
+                    android:id="@+id/food_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="菠萝饭"
+                    android:lineHeight="60dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="删除"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_gravity="end"/>
+        </GridLayout>
+        <TextView
+            android:id="@+id/tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+</LinearLayout>
